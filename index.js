@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-
+app.get('/', (req, res) => {
+    res.send("✅ API is live. Use POST /bfhl with JSON to test.");
+});
 app.post('/bfhl', (req, res) => {
     const data = req.body.data;
     const response = {
