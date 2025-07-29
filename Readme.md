@@ -28,7 +28,7 @@ Build and host a REST API (`POST /bfhl`) that:
 
 ## 🌐 Hosted API Endpoint
 
-> 🔗 [https://your-api-url.onrender.com/bfhl](https://your-api-url.onrender.com/bfhl)  
+> 🔗 [https://bajaj-api-u3il.onrender.com/bfhl](https://bajaj-api-u3il.onrender.com/bfhl)  
 > Method: `POST`  
 > Route: `/bfhl`  
 > Expected Status Code: `200`
