@@ -1,9 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-app.get('/', (req, res) => {
-    res.send("BFHL API is running. Use POST /bfhl to send data.");
-  });
+
 app.post('/bfhl', (req, res) => {
     const data = req.body.data;
     const response = {
